@@ -77,3 +77,4 @@ Resources
 1. [Mitigating DDoS Attacks with NGINX](https://blog.nginx.org/blog/mitigating-ddos-attacks-with-nginx-and-nginx-plus)
 2. [Slow http attacks](https://github.com/jatj/sdn_onos/blob/master/SLOW_HTTP_ATTACKS.md)
 3. [Slow http attacks2](https://gist.github.com/serogers/ba4e124d6be79eacbf712a558239a67d)
+4. [From Stress testing to DDOS](https://dou.ua/forums/topic/37287/)
